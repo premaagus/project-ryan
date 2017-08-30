@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background: #D9D9D9;
+}
+
+/*Navbar Header*/
+.nav
+{
+	float: right;
+}
+
+.navbar
+{
+	border: none;
+}
+
+.navbar-default
+{
+	background: rgba(4,138,73,1.00)
+}
+
+#menu ul li a
+{
+	color: white;
+	transition: 0.2s ease;
+}
+
+#menu ul li a:hover
+{
+	background: #31B82B;
+	border-bottom: 2px solid #FFFFFF;
+}
+
+
+.navbar-brand
+{
+	color: #ECECEC!important;
+}
+
+/*Header*/
+.header
+{
+	height: 600px;
+	background:url(../image/000538_32-2.png);
+	background-position: center center;
+	background-size: cover;
+	margin-top: 50px;
+	border-bottom: 20px solid #329422;
+}
+
+.header-desc
+{
+	text-align: center;
+	color: white;
+}
+
+.header-desc h1
+{
+	margin-top: 200px;
+	color: white;
+	font-size: 50px;
+}
+
+.scrolldown
+{
+	width: 70px;
+	height: 100px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.scrolldown a
+{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.scrolldown a img
+{
+	width: 200px;
+	margin-left: -55px;
+}
+
+/*Description*/
+
+.deskripsi
+{
+	height: 400px;
+	background: #D9D9D9;
+}
+
+.text-desc
+{
+	text-align: center;
+}
+
+.text-desc h2
+{
+	color: #1AA319;
+}
+
+.text-desc p
+{
+	max-width: 800px;
+	margin: auto;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.restaurant
+{
+	width: 100%;
+	height: 200px;
+	background: url(../image/restaurant.jpeg);
+	background-size: cover;
+	background-position: center bottom;
+	margin-top: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+.white-sand
+{
+	width: 100%;
+	height: 200px;
+	background: url(../image/9.jpg);
+	background-size: cover;
+	background-position: center center;
+	margin-top: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+.airport
+{
+	width: 100%;
+	height: 200px;
+	background: url(../image/3c3b7528dd8d3bc3fdafa58ecf82efd186b9025e-6f29c.jpg);
+	background-size: cover;
+	background-position: center center;
+	margin-top: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+.room
+{
+	width: 100%;
+	height: 200px;
+	background: url(../image/001099_06-2.jpg);
+	background-size: cover;
+	background-position: center center;
+	margin-top: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+.hover
+{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.74);
+	text-align: center;
+	color: whitesmoke;
+	margin-top: -200px;
+	position: absolute;
+	transition: 0.5s ease;
+	opacity: 0;
+}
+
+.hover h3
+{
+	line-height: 150px;
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+.white-sand:hover .hover
+{
+	margin-top: 0px;
+	opacity: 1;
+}
+
+.airport:hover .hover
+{
+	margin-top: 0px;
+	opacity: 1;
+}
+
+.restaurant:hover .hover
+{
+	margin-top: 0px;
+	opacity: 1;
+}
+
+.room:hover .hover
+{
+	margin-top: 0px;
+	opacity: 1;
+}
