@@ -19,7 +19,7 @@ body
 
 .navbar-default
 {
-	background: rgba(4,138,73,1.00)
+	background: rgba(4,138,73,1.00);
 }
 
 #menu ul li a
@@ -89,7 +89,7 @@ body
 
 .deskripsi
 {
-	height: 400px;
+	height: auto;
 	background: #D9D9D9;
 }
 
@@ -203,4 +203,78 @@ body
 {
 	margin-top: 0px;
 	opacity: 1;
+}
+
+/*footer*/
+.footer{
+	height: auto;
+	width: 100%;
+	margin-top: 70px;
+}
+.footer-atas{
+	background: green;
+	height: auto;
+}
+.footer-bawah{
+	background:#42A23E;
+	height: auto;
+}
+.telpon{
+	height: 50px;
+	width: 100%;
+}
+.telpon p{
+	color: #fff;
+	font-size: 20px;
+	line-height: 50px;
+	
+}
+.panah{
+	width: 100%;
+	height: 50px;
+}
+.panah p a{
+	color: #fff;
+	font-size: 50px;
+	line-height: 50px;
+	text-align: center;
+	transition: 1s ease-in-out;
+}
+.panah p a:hover{
+	color: #2FB2C7;
+}
+.sosmed{
+	width: 100%;
+	height: 50px;
+}
+.sosmed ul li{
+	display: inline-block;
+	margin-right: 10px;
+	line-height: 50px;
+}
+.sosmed ul li a{
+	color: #fff;
+	font-size: 25px;
+	transition: 1s ease-in-out;
+}
+.sosmed ul li a:hover{
+	color: #2FB2C7;
+}
+.alamat h3{
+	margin-top: 10px;
+	color: #fff;
+}
+.alamat p{
+	margin-top: 25px;
+	color: #fff;
+	font-size: 16px;
+}
+.email h4{
+	margin-top: 10px;
+	color: #fff;
+}
+.email p{
+	margin-top: 35px;
+	color: #fff;
+	font-size: 16px;	
 }
