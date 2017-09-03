@@ -57,3 +57,22 @@ h3
 	height: 25px;
 	margin: 5px;
 }
+
+table.distance tr td
+{
+	padding: 10px;
+}
+
+@media (max-width: 1090px)
+{
+	.facilities
+	{
+		margin-top: 50px;
+		height: 1700px;
+	}
+	
+	.road
+	{
+		width: 100%;
+	}
+}
