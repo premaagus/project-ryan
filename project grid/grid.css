@@ -10,13 +10,13 @@ body { font-family: sans-serif; }
 
 .bungkus {
   background: #EEE;
-  max-width: 1200px;
+  max-width: 100%;
 }
 .grid-item{
-	width: 25%;
+	width: 20%;
 }
 /* clearfix */
-.grid:after {
+.bungkus:after {
   content: '';
   display: block;
   clear: both;
@@ -37,34 +37,3 @@ body { font-family: sans-serif; }
 	width: 100%;
 	
 }
-.rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  }
-
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
-  }
-
-.rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-  }
-
-.rslides img {
-  display: block;
-  height: auto;
-  float: left;
-  width: 100%;
-  border: 0;
-  }
